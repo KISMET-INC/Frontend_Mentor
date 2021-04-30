@@ -1,0 +1,73 @@
+@import './colors.css';
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 85%;
+    margin: auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+#image {
+    background-image: url('../images/image-header-mobile.jpg');
+    filter:contrast(68%) saturate(167%) brightness(85%);
+    background-repeat: no-repeat;
+    background-color:var(--accent);
+    background-size: cover;
+    background-blend-mode: multiply;
+    width:100%;
+    padding-top:75%;
+    border-radius: 10px 10px 0px 0px;
+}
+#info {
+    background-color: var(--cardbg);
+    border-radius: 0px 0px 10px 10px;
+}
+
+body {
+    background-color: var(--mainbg);
+    color:white;
+    font-family: var(--inter);
+}
+h1,
+h2,
+p{
+    text-align: center;
+}
+
+#info {
+    padding: 3em 1.5em 2.5em 1.5em;
+}
+
+#title {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+#para {
+    font-size: 15px;
+    color: var(--mainp);
+    line-height: 1.8em;
+}
+
+.stat p {
+    font-size: 0.8em;
+    color: var(--mainp);
+    letter-spacing: 2px;
+    margin-top: 0.5em;
+    
+    
+}
+
+.stat {
+    margin-top: 2em;
+
+}
+.accent {
+    color:var(--accent)
+}
